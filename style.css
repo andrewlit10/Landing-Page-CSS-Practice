@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 900px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+body, html {
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+}
+.hero-section {
+    background-image: url("images/developer.png");
+    width: 1200px;
+    height: 500px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    margin-top: -10px;
+    
+}
+h1 {
+    padding-top: 40px;
+    margin-top: -10px;
+    color: white;
+    justify-content: center;
+    font-size: 3rem;
+}
+.row-container {
+    display: flex;
+    gap: 2rem;
+    padding: 75px;
+}
+.section-container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+    
+}
+.first-p {
+    margin-top: 25px;
+}
+.section-container > * {
+    max-width: 225px;
+}
+.section-container p {
+    padding: 10px;
+    font-size: 0.75rem;
+}
+.section-container span {
+    font-weight: 400;
+    padding-top: 5px;
+}
+.banner {
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: -10px;
+    padding: 30px 0;
+    text-transform: uppercase;
+    
+}
+.banner p {
+    font-size: 3rem;
+}
+.bigger-font {
+    font-size: 6rem;
+    font-weight: 200;
+}
+.me-section {
+    display: flex;
+    color: white;
+    
+}
+.me-section p {
+    padding-top: 1rem;
+    
+}
+.contact-me {
+    background-color: rgb(87, 104, 57);
+    padding: 2rem;
+    
+}
+.about-me {
+    background-color: rgb(125, 55, 20);
+    padding: 2rem;
+}
+.about-me-header {
+    font-size: 3rem;
+    
+}
+.project-by {
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    
+}
+.project-by span {
+    font-size: 2rem;
+}
+
+
